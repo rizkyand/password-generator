@@ -1,0 +1,14 @@
+.imageHandler{
+    transform: scale(1.6);
+}
+
+.imageHandler:hover{
+    transform: scale(1.8);
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.rotateLogo{
+    transform: rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+}
